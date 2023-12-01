@@ -52,59 +52,64 @@ en: &DEFAULT_EN
       - title: 'Makerspace #Askotec Workshop'
         year: 'November 15, 2021'
         desc: 'Youth in Cameroon’s economic capital, Douala, benefitted from the first hands-on training, using our #ASKotec Kit.'
-        image: assets/img/timeline/1.jpg
+        image: 'assets/img/timeline/1.jpg'
         alt:
       - title: '#Askotec Showcase'
         year: 'November 18, 2021'
         desc: 'Showcased #Askotec while sharing the vision and mission of #defyhatenow and the activities they have been doing to foster peace and mitigate hate speech online in Cameroon and beyond.'
-        image: assets/img/timeline/2.jpg
+        image: 'assets/img/timeline/11.jpg'
         alt:
       - title: '2 Day #Askotec Workshop'
         year: 'November 18, 2021'
         desc: 'Cameroon and its partners organized a two days workshop in the economic capital, Douala, to train participants from over 4 regions on the Access to to Skills and Knowledge Open Tech Emergency Case (ASKotec) Kit'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/3.jpg'
         alt: image alt text
       - title: 'STEM au Feminine'
         year: 'August 2, 2022'
         desc: 'Had a working session with a dozen girls on the use of the #ASKotec kit'
-        image: assets/img/timeline/4.jpg
+        image: 'assets/img/timeline/4.jpg'
         alt:
         # you can enforce the alignment
         align: right
       - title: 'Hacker Camp - #Askotec Repair Cafe with Active Spaces'
         year: 'August 10, 2022'
         desc: 'Brought together over 25 youths to train them on how to repair basic household electric appliances using the ASKotec kit.'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/5.jpg'
         alt: image alt text
       - title: '#Askotec Workshop with #tech4peace'
         year: 'August 11/24, 2022'
         desc: 'Hacker camps project, engaged youths today at the Presbyterian Church Bastos in vital skills and knowledge acquisition in technology and repairs for a #Tech4Peace Cameroon.'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/6.jpg'
         alt: image alt text
       - title: 'Repair Cafe'
         year: 'October 5, 2022'
         desc: 'Richard was invited to an event with Active Spaces to partner with the organization as well as host A repair cafe.'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/7.jpg'
         alt: image alt text
       - title: 'Peace builder"s Makers Space'
         year: 'October 15, 2022'
         desc: 'This program mobilizes and trains community members in using social social media responsibly, denouncing disinformation to promote peace, and implementing inclusive spaces to kickstart peaceful innovations promoting peace by denouncing disinformation and rumors, and creating inclusive spaces for DIY peacebuilding innovations that can support the community at large.'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/8.jpg'
         alt: image alt text
       - title: 'Full #Askotec Introduction/Sketching, Prototyping & Soldering'
         year: 'November 11/16, 2022'
         desc: 'Full #ASKotec introduction” for the participants together with the project coordinator(s). The introduction was facilitated in a way that allowed icebreaking to happen between the participants.'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/9.jpg'
         alt: image alt text
       - title: '#Askotec Workshop with #tech4peace'
         year: 'March 1, 2023'
         desc: 'Measured soil moisture to help refugee farmers in Rhino Camp Uganda to know the level of moisture in the soil. Was to create awareness and promotion of open science hardware technology in agriculture.'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/10.jpg'
         alt: image alt text
       - title: 'Cyber Holidays Bootcamp'
         year: 'August 17, 2023'
         desc: 'Target group was youths interested in learning more about cybersecurity and digital innovation. Gained knowledge and skills on protecting themselves from cyber threats, such as phishing scams, malware, and social engineering.'
-        image: assets/img/timeline/3.jpg
+        image: 'assets/img/timeline/2.jpg'
+        alt: image alt text
+      - title: '#AskCamp'
+        year: 'November 21-23, 2023'
+        desc: 'The objective of the training was to provide the students with an introduction to open hardware and hands-on practice with the ASKotec Kit and offline information access mini-servers. Through the training, the students were expected to gain practical knowledge in developing simple circuits, understand basic electronics and microcontrollers, and learn the principles of open-source software and hardware.'
+        image: 'assets/img/timeline/6.jpg'
         alt: image alt text
     end: 'Be Part <br> of Our <br> Story!'
 
@@ -133,40 +138,40 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: 'OUR AMAZING TEAM'
-    text: 'Lorem ipsum dolor sit amet consectetur.'
+    title: 'TEAM'
+    text: 'Meet our trainers'
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: 'Kay Garland'
-        role: 'Lead Designer'
-        image: assets/img/team/500x500.jpg
+      - name: 'Vianney Forewah'
+        role: 'Digital Rights Activist'
+        image: assets/img/team/Vianney.jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/vianney_forewah?lang=en
             icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://web.facebook.com/nexgengroup.io
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/ndum-vianney-forewah-2883b0104?originalSubdomain=cm
             icon: fab fa-linkedin-in
-      - name: 'Larry Parker'
-        role: 'Lead Marketer'
-        image: assets/img/team/2.jpg
+      - name: 'Maliamungu Richard'
+        role: 'Co-Founder of the CC4D'
+        image: assets/img/team/Maliamungu.jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/MaliamunguRich4
             icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://www.facebook.com/malyesto.rojo
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/maliamungu-richard-5b14b114b
             icon: fab fa-linkedin-in
-      - name: 'Diana Perterson'
-        role: 'Lead Developer'
-        image: assets/img/team/500x500.jpg
+      - name: 'Timm Wille'
+        role: 'Engineer at Open Source Ecology'
+        image: assets/img/team/timm.jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/timmwille?lang=en
             icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://web.facebook.com/timm.wille
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/timm-wille-686319105?originalSubdomain=de
             icon: fab fa-linkedin-in
 
   contact:

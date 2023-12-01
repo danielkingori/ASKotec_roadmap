@@ -16,7 +16,7 @@
   > li {
     position: relative;
     min-height: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     &:after,
     &:before {
       display: table;
@@ -29,7 +29,7 @@
       position: relative;
       float: right;
       width: 100%;
-      padding: 0 20px 0 100px;
+      padding: 0 20px 0 20px;
       text-align: left;
       &:before {
         right: auto;
@@ -53,9 +53,6 @@
       margin-left: 0;
       text-align: center;
       color: $white;
-      border: 7px solid $gray-200;
-      border-radius: 100%;
-      background-color: $primary;
       h4 {
         font-size: 10px;
         line-height: 14px;
@@ -64,7 +61,7 @@
     }
     &.timeline-inverted > .timeline-panel {
       float: right;
-      padding: 0 20px 0 100px;
+      padding: 0 20px 0 20px;
       text-align: left;
       &:before {
         right: auto;
@@ -106,7 +103,7 @@
     }
     > li {
       min-height: 100px;
-      margin-bottom: 100px;
+      margin-bottom: 20px;
       .timeline-panel {
         float: left;
         width: 41%;
@@ -160,7 +157,7 @@
     > li {
       min-height: 170px;
       .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 0 20px 20px 20px;
       }
       .timeline-image {
         width: 170px;
@@ -171,7 +168,7 @@
         }
       }
       &.timeline-inverted > .timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 0 20px 20px 20px;
       }
     }
   }
