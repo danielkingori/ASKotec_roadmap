@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: The Access to Skills and Knowledge Open Tech Emergency Case
     text: Open Tech for Good
     button: View Our Roadmap
-    buttonlink: '#services'
+    buttonlink: '#timeline'
 
   services:
     title: 'Services'
