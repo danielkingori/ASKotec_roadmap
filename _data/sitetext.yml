@@ -1,0 +1,508 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: The Access to Skills and Knowledge Open Tech Emergency Case
+    text: Open Tech for Good
+    button: View Our Roadmap
+    buttonlink: '#services'
+
+  services:
+    title: 'Services'
+    text: 'Lorem ipsum'
+    section: services
+    list:
+      - title: 'E-Commerce'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: 'Responsive Design'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+        icon: fas fa-laptop
+      - title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
+        desc: 'Your description here, full **Markdown** support'
+        icon: fab fa-markdown
+
+  portfolio:
+    title: 'Portfolio'
+    text: 'Lorem ipsum dolor sit amet consectetur.'
+    section: portfolio
+    closebutton: 'Close Project'
+
+  kit:
+    title: '#Askotec Kit'
+    text: 'The Access to Skills and Knowledge Open Tech Emergency Case is a resource kit for community trainers, created for mobile field-use where there is neither easy power nor internet connectivity such as refugee camps, low-infrastructure regions or rural areas. Intended as Open Tech for Good, #ASKotec was created through a series of hub development workshops by a community of young innovators intent on bringing skills training and peace-building together in the effort to end the South Sudan conflict.'
+    section: 'kit'
+
+  timeline:
+    title: 'Timeline'
+    text: '2021 - 2023'
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: 'Makerspace #Askotec Workshop'
+        year: 'November 15, 2021'
+        desc: 'Youth in Cameroon’s economic capital, Douala, benefitted from the first hands-on training, using our #ASKotec Kit.'
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: '#Askotec Showcase'
+        year: 'November 18, 2021'
+        desc: 'Showcased #Askotec while sharing the vision and mission of #defyhatenow and the activities they have been doing to foster peace and mitigate hate speech online in Cameroon and beyond.'
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: '2 Day #Askotec Workshop'
+        year: 'November 18, 2021'
+        desc: 'Cameroon and its partners organized a two days workshop in the economic capital, Douala, to train participants from over 4 regions on the Access to to Skills and Knowledge Open Tech Emergency Case (ASKotec) Kit'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: 'STEM au Feminine'
+        year: 'August 2, 2022'
+        desc: 'Had a working session with a dozen girls on the use of the #ASKotec kit'
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+      - title: 'Hacker Camp - #Askotec Repair Cafe with Active Spaces'
+        year: 'August 10, 2022'
+        desc: 'Brought together over 25 youths to train them on how to repair basic household electric appliances using the ASKotec kit.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: '#Askotec Workshop with #tech4peace'
+        year: 'August 11/24, 2022'
+        desc: 'Hacker camps project, engaged youths today at the Presbyterian Church Bastos in vital skills and knowledge acquisition in technology and repairs for a #Tech4Peace Cameroon.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: 'Repair Cafe'
+        year: 'October 5, 2022'
+        desc: 'Richard was invited to an event with Active Spaces to partner with the organization as well as host A repair cafe.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: 'Peace builder"s Makers Space'
+        year: 'October 15, 2022'
+        desc: 'This program mobilizes and trains community members in using social social media responsibly, denouncing disinformation to promote peace, and implementing inclusive spaces to kickstart peaceful innovations promoting peace by denouncing disinformation and rumors, and creating inclusive spaces for DIY peacebuilding innovations that can support the community at large.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: 'Full #Askotec Introduction/Sketching, Prototyping & Soldering'
+        year: 'November 11/16, 2022'
+        desc: 'Full #ASKotec introduction” for the participants together with the project coordinator(s). The introduction was facilitated in a way that allowed icebreaking to happen between the participants.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: '#Askotec Workshop with #tech4peace'
+        year: 'March 1, 2023'
+        desc: 'Measured soil moisture to help refugee farmers in Rhino Camp Uganda to know the level of moisture in the soil. Was to create awareness and promotion of open science hardware technology in agriculture.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: 'Cyber Holidays Bootcamp'
+        year: 'August 17, 2023'
+        desc: 'Target group was youths interested in learning more about cybersecurity and digital innovation. Gained knowledge and skills on protecting themselves from cyber threats, such as phishing scams, malware, and social engineering.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+    end: 'Be Part <br> of Our <br> Story!'
+
+  about:
+    title: 'About The Kit'
+    text: 'A short history'
+    body: 'The Access to Skills and Knowledge Open Tech Emergency Case is a resource kit for community trainers, created for mobile field-use where there is neither easy power nor internet connectivity such as refugee camps, low-infrastructure regions or rural areas. Intended as Open Tech for Good, #ASKotec was created through a series of hub development workshops by a community of young innovators intent on bringing skills training and peace-building together in the effort to end the South Sudan conflict.'
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: '' #"yes/no"
+    list:
+      - title: 'envato'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: 'designmodo'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: 'themeforest'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: 'Creative Market'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: 'OUR AMAZING TEAM'
+    text: 'Lorem ipsum dolor sit amet consectetur.'
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: 'Kay Garland'
+        role: 'Lead Designer'
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: 'Larry Parker'
+        role: 'Lead Marketer'
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: 'Diana Perterson'
+        role: 'Lead Developer'
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: 'Contact Us'
+    text: 'Lorem ipsum or call 123456789'
+    section: contact
+    name: 'Name*'
+    name-validation: 'Please enter your name.'
+    email: 'Email*'
+    email-validation: 'Please enter your email address.'
+    phone: 'Phone Number'
+    phone-validation: 'Please enter your phone number.'
+    message: 'Message*'
+    message-validation: 'Please enter a message.'
+    subject: 'Contact Form Submission'
+    submit: 'Send Message'
+
+  footer:
+    legal: 'Privacy Policy'
+    social:
+      - url: https://github.com/opencultureagency/ASKotec
+        icon: 'fab fa-github'
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: '#servicios'
+
+  services:
+    title: 'Servicios'
+    text: 'Lorem ipsum'
+    section: servicios
+    list:
+      - title: 'Comercio Electrónico'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: 'Diseño Responsivo'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+        icon: fas fa-laptop
+      - title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
+        desc: 'Su descripción aquí, soporte completo de **Markdown**'
+        icon: fab fa-markdown
+
+  portfolio:
+    title: 'Portafolio'
+    text: 'Lorem ipsum dolor sit amet consectetur.'
+    section: portafolio
+    closebutton: 'Cerrar Proyecto'
+
+  timeline:
+    title: 'Cronología'
+    text: 'Lorem ipsum timeline'
+    section: cronologia
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: 'Nuestro Humilde Comienzo'
+        year: '2009-2011'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: 'Una Agencia nace'
+        year: 'March 2011'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: 'La plantilla Jekyll es creada'
+        year: '2019'
+        desc: 'Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación.'
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: 'Título'
+        year: '2009-2011'
+        desc: 'Su descripción aquí, **Markdown** es soportado completamente.'
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: '¡Se parte <br> de Nuestra <br> Historia!'
+
+  about:
+    title: 'Sobre nosotros'
+    text: 'nuestra historia'
+    body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.'
+    section: nosotros
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: '' #"yes/no"
+    list:
+      - title: 'envato'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: 'designmodo'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: 'themeforest'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: 'Creative Market'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: 'NUESTRO INCREÍBLE EQUIPO'
+    text: 'Lorem ipsum dolor sit amet consectetur.'
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: equipo
+    people:
+      - name: 'Kay Garland'
+        role: 'Lead Designer'
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: 'Larry Parker'
+        role: 'Lead Marketer'
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: 'Diana Perterson'
+        role: 'Lead Developer'
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: 'Contáctenos'
+    text: 'Lorem ipsum or call 123456789'
+    section: contacto
+    name: 'Nombre*'
+    name-validation: 'Por favor ingrese su nombre.'
+    email: 'Correo Electrónico*'
+    email-validation: 'Por favor ingrese su correo electrónico.'
+    phone: 'Número Telefónico*'
+    phone-validation: 'Por favor ingrese su número telefónico.'
+    message: 'Mensaje*'
+    message-validation: 'Por favor escriba un mensaje.'
+    subject: 'Envío del formulario de contacto'
+    submit: 'Enviar Mensaje'
+
+  footer:
+    legal: 'Política de Privacidad'
+    social:
+      - url: https://twitter.com
+        icon: 'fab fa-twitter'
+      - url: https://facebook.com
+        icon: 'fab fa-facebook-f'
+      - url: https://linkedin.com
+        icon: 'fab fa-linkedin-in'
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: 'fab fa-github'
+      - url: https://instagram.com
+        icon: 'fab fa-instagram'
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
+
+# Deutsch
+# -----------------
+de: &DEFAULT_DE
+  header:
+    title: Willkommen auf unserer Webseite!
+    text: Schön das Sie hier sind!
+    button: Mehr erfahren
+    buttonlink: '#Angebote'
+
+  services:
+    title: 'Leistungen'
+    text: 'Was wir anbieten.'
+    section: Leistungen
+    list:
+      - title: 'E-Commerce'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: 'Responsive Design'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+        icon: fas fa-laptop
+      - title: '[Markdown](https://de.wikipedia.org/wiki/Markdown)'
+        desc: 'Hier können Sie etwas mit **Markdown** einfügen.'
+        icon: fab fa-markdown
+
+  portfolio:
+    title: 'Portfolio'
+    text: 'Lorem ipsum dolor sit amet consectetur.'
+    section: Portfolio
+    closebutton: 'Schließen'
+
+  timeline:
+    title: 'Geschichte'
+    text: 'Lorem ipsum timeline'
+    section: Geschichte
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: 'Unsere Anfänge'
+        year: '2009-2011'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: 'Gründung der Firma'
+        year: 'März 2011'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: 'Das Jekyll-Thema wurde erstellt'
+        year: '2019'
+        desc: 'Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an.'
+        image: assets/img/timeline/3.jpg
+        alt: Bildbeschreibung
+      - title: 'Titel'
+        year: '2009-2011'
+        desc: 'Hier können Sie etwas mit **Markdown** einfügen.'
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: 'Seien Sie <br> Teil unserer <br> Geschichte!'
+
+  about:
+    title: 'Über uns'
+    text: 'Unsere Geschichte.'
+    body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.'
+    section: Ueber
+
+  clients:
+    section: Kunden
+    max-height: 100px
+    horizontal-scrolling: '' #"yes/no"
+    list:
+      - title: 'envato'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: 'designmodo'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: 'themeforest'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: 'Creative Market'
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: 'Unser großartiges Team'
+    text: 'Lorem ipsum dolor sit amet consectetur.'
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: Team
+    people:
+      - name: 'Kay Garland'
+        role: 'Chef-Designer'
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: 'Larry Parker'
+        role: 'Chef der Werbeabteilung'
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: 'Diana Perterson'
+        role: 'Chef-Programmiererin'
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: 'Kontakt'
+    text: 'Kontaktieren Sie uns.'
+    section: Kontakt
+    name: 'Name*'
+    name-validation: 'Geben Sie einen Namen ein.'
+    email: 'E-Mail*'
+    email-validation: 'Geben Sie Ihre E-Mail-Addresse ein.'
+    phone: 'Telefonnummer*'
+    phone-validation: 'Geben Sie Ihre Telefonnummer ein.'
+    message: 'Nachricht*'
+    message-validation: 'Schreiben Sie etwas...'
+    subject: 'Kontakt-Formular Bestätigung'
+    submit: 'Nachricht absenden'
+
+  footer:
+    legal: 'Datenschutzerklärung'
+    social:
+      - url: https://twitter.com
+        icon: 'fab fa-twitter'
+      - url: https://facebook.com
+        icon: 'fab fa-facebook-f'
+      - url: https://linkedin.com
+        icon: 'fab fa-linkedin-in'
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: 'fab fa-github'
+      - url: https://instagram.com
+        icon: 'fab fa-instagram'
+de-DE:
+  <<: *DEFAULT_DE
