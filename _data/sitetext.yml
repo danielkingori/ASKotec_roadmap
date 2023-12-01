@@ -165,7 +165,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: 'Timm Wille'
         role: 'Engineer at Open Source Ecology'
-        image: assets/img/team/timm.jpg
+        image: assets/img/team/Timm.jpg
         social:
           - url: https://twitter.com/timmwille?lang=en
             icon: fab fa-twitter
