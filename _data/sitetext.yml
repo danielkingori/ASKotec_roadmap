@@ -138,7 +138,7 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: 'TEAM'
+    title: 'TECHNICAL TRAINERS'
     text: 'Meet our trainers'
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
@@ -172,6 +172,36 @@ en: &DEFAULT_EN
           - url: https://web.facebook.com/timm.wille
             icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/timm-wille-686319105?originalSubdomain=de
+            icon: fab fa-linkedin-in
+      - name: 'Vianney Forewah'
+        role: 'Digital Rights Activist'
+        image: assets/img/team/Vianney.jpg
+        social:
+          - url: https://twitter.com/vianney_forewah?lang=en
+            icon: fab fa-twitter
+          - url: https://web.facebook.com/nexgengroup.io
+            icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/ndum-vianney-forewah-2883b0104?originalSubdomain=cm
+            icon: fab fa-linkedin-in
+      - name: 'Vianney Forewah'
+        role: 'Digital Rights Activist'
+        image: assets/img/team/Vianney.jpg
+        social:
+          - url: https://twitter.com/vianney_forewah?lang=en
+            icon: fab fa-twitter
+          - url: https://web.facebook.com/nexgengroup.io
+            icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/ndum-vianney-forewah-2883b0104?originalSubdomain=cm
+            icon: fab fa-linkedin-in
+      - name: 'Vianney Forewah'
+        role: 'Digital Rights Activist'
+        image: assets/img/team/Vianney.jpg
+        social:
+          - url: https://twitter.com/vianney_forewah?lang=en
+            icon: fab fa-twitter
+          - url: https://web.facebook.com/nexgengroup.io
+            icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/ndum-vianney-forewah-2883b0104?originalSubdomain=cm
             icon: fab fa-linkedin-in
 
   contact:
