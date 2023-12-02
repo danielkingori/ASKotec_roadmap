@@ -17,7 +17,7 @@ en: &DEFAULT_EN
       section: map
     - title: 'Timeline'
       section: timeline
-    - title: 'Team'
+    - title: 'Technical Trainers'
       section: team
 en-US:
   <<: *DEFAULT_EN
