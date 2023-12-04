@@ -13,10 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: 'About'
       section: about
-    - title: 'Map'
-      section: map
     - title: 'Timeline'
       section: timeline
+    - title: 'Map'
+      section: map
     - title: 'Technical Trainers'
       section: team
 en-US:
